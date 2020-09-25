@@ -4,19 +4,39 @@
 	<title>table</title>
 </head>
 <body>
+	<style>
+		#t1 th{
+			background-color:  #d97e07;
+			color: white;
+		}
+		#t1 tr:nth-child(odd){
+			background-color: #3281a8;
+			color: white;
+			text-align:center;
+			font-size:18px;
+		}
+		#t1 tr:nth-child(even){
+			background-color: #d97e07;
+			color: white;
+			text-align:center;
+			font-size:18px;
+		}
+	</style>
+			
+		
 	<h2 style="font-family: 'Grenze Gotisch', cursive;color: #2b047a; text-align: center;">educational details</h2>
-	<table width="100%" border="4px">
-		<th style="border-color: #d97e07; background-color: #d97e07">MATRICULATION</th>
-		<th style="border-color:  #d97e07;background-color: #d97e07">INTERMEDIATE</th>
+	<table id="t1" width="100%" border="4px">
+		<th>MATRICULATION</th>
+		<th>INTERMEDIATE</th>
 		<tr>
 			
-			<td style="text-align: center;font-size: 18px">CBSE</td>
-			<td style="text-align: center;font-size: 18px">BSEB</td>
+			<td>CBSE</td>
+			<td>BSEB</td>
 		</tr>
 		<tr>
 			
-			<td style="text-align: center;font-size: 18px">9.4 CGPA</td>
-			<td style="text-align: center;font-size: 18px">71.2%</td>
+			<td>9.4 CGPA</td>
+			<td>71.2%</td>
 		</tr>
 	</table>
 
